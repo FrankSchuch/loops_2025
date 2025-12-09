@@ -54,3 +54,9 @@ subjects = ["Math", "Science", "History", "Art"]
     # for number in new_numbers:
     #     total += str(new_numbers)
     # print("total: ", new_total)
+
+numbers = list(range(5, 26))
+total = 0
+for x in numbers:
+    total += x
+print("Total: ", total)
