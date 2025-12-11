@@ -48,7 +48,13 @@ print(factorial(0))
 
 
 # ### **Problem 5: Print Even Numbers**
-
+n = int(input("Enter a numberl "))
+list2 = list(range(1, n))
+for i in list2:
+    if i % 2 == 0:
+        print("even", i)
+    else:
+        print("odd", i)
 # Ask the user for a number **n**, then print all **even numbers** from 2 up to n.
 
 
